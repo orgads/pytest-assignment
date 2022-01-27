@@ -35,6 +35,7 @@ API:
 
 ## Requirements 
 * Running webserver
+* Use object-oriented design for both the server and the tests
 * At least 5 tests executed by pytest 
  
 ## Bonus
