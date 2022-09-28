@@ -9,8 +9,6 @@ This server should have an in-memory database (can be a simple dictionary) that 
 
 The list of intents for the bots should be stored in the bots db and EVERY new intent will be added to the db.
 
-EVERY time the bot attempts to execute a command for example: play_sound it should check in the current configuration if the bot supports it.
-
 Intent types (you can add more if you want):
 * play_sound
 * tell_joke
@@ -22,28 +20,17 @@ Each bot should have the following attributes:
 * url - External URL (it isn't used by the application)
 * intents - Array of supported intents
 
-API:
-* Require authenticating and all operations fail if not authenticated
-* Support 2 types of authentications 
-  * Basic auth using username and pass.
-  * Token auth using a shared string that appears in the message. Example:
-```json
-{
-  "token": "sup3rs3cr3t"
-}
-```
-
 ## Requirements 
 * Running webserver
 * Use object-oriented design for both the server and the tests
 * At least 5 tests executed by pytest 
- 
+
 ## Bonus
 * Use PyTest mark.
 * Create a HTML report of the tests
 * Try to think of special scenarios to test 
-* Use: Fixtures
- 
+* Use fixtures
+
 If you have any questions, contact orgad.shaneh@audiocodes.com
 
 Turning in the project should be done in one of the following methods:
