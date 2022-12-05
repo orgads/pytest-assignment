@@ -7,6 +7,8 @@ Write a RESTful webserver which supports all of the following HTTP methods, POST
 
 This server should have an in-memory database (can be a simple dictionary) that represents bot objects.
 
+You can use Flask, or any web framework you'd like.
+
 The list of intents for the bots should be stored in the bots db and EVERY new intent will be added to the db.
 
 Intent types (you can add more if you want):
@@ -22,14 +24,15 @@ Each bot should have the following attributes:
 
 ## Requirements 
 * Running webserver
-* Use object-oriented design for both the server and the tests
-* At least 5 tests executed by pytest 
+* Use object-oriented design for both the server and the tests.
+* At least 5 tests executed by pytest.
+* Avoid code duplication as much as possible.
 
 ## Bonus
 * Use PyTest mark.
-* Create a HTML report of the tests
-* Try to think of special scenarios to test 
-* Use fixtures
+* Create a HTML report of the tests.
+* Try to think of special scenarios to test.
+* Use fixtures.
 
 If you have any questions, contact orgad.shaneh@audiocodes.com
 
