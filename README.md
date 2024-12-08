@@ -34,10 +34,10 @@ Each bot should have the following attributes:
 * Try to think of special scenarios to test.
 * Use fixtures.
 
-If you have any questions, contact orgad.shaneh@audiocodes.com
+If you have any questions, contact naama.rais@audiocodes.com
 
 Turning in the project should be done in one of the following methods:
-* Private Github repo – grant view permissions to @orgads
+* Private Github repo – grant view permissions to @naamarais
 * Dropbox link
 
 ## Sample interaction
